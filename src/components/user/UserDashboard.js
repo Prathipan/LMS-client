@@ -78,7 +78,7 @@ import { useNavigate } from "react-router-dom";
                     {book.price}
                   </TableCell>
                   <TableCell >
-                    <Button variant="contained" onClick={() => handleView(index)}>View</Button>
+                    <Button variant="contained" onClick={() => handleView(book.id)}>View</Button>
                   </TableCell>
                 </TableRow>
               ))}
